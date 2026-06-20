@@ -1,11 +1,11 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { apiService } from '@/./utils/api';
-import { setSeo } from '@/./utils/seo';
-import { StarRating } from '@/./components/ui/StarRating';
-import { Badge } from '@/./components/ui/Badge';
-import { useApp } from '@/./context/AppContext';
+import { apiService } from '@/utils/api';
+import { setSeo } from '@/utils/seo';
+import { StarRating } from '@/components/ui/StarRating';
+import { Badge } from '@/components/ui/Badge';
+import { useApp } from '@/context/AppContext';
 import { 
   Flame, 
   Zap, 
