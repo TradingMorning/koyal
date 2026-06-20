@@ -1,11 +1,11 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { apiService } from '../utils/api';
-import { setSeo } from '../utils/seo';
-import { useApp } from '../context/AppContext';
-import { IndicatorGrid } from '../components/indicators/IndicatorGrid';
-import { Badge } from '../components/ui/Badge';
+import { apiService } from '@/./utils/api';
+import { setSeo } from '@/./utils/seo';
+import { useApp } from '@/./context/AppContext';
+import { IndicatorGrid } from '@/./components/indicators/IndicatorGrid';
+import { Badge } from '@/./components/ui/Badge';
 import { 
   Search, 
   Sparkles, 
