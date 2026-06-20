@@ -2,34 +2,34 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store';
-import { AppProvider } from './context/AppContext';
-import { Layout } from './components/layout/Layout';
+import { AppProvider } from '@/context/AppContext';
+import { Layout } from '@/components/layout/Layout';
 import { ProtectedRoute } from '@/components/ProtectedRoute';
 
 // Operational and Strategy screens
-import { Home } from './screens/Home';
-import { Indicators } from './screens/Indicators';
-import { IndicatorDetail } from './screens/IndicatorDetail';
-import { Screener } from './screens/Screener';
-import { News } from './screens/News';
-import { MacroCalendar } from './screens/MacroCalendar';
-import { Calculators } from './screens/Calculators';
-import { Brokers } from './screens/Brokers';
-import { Compare } from './screens/Compare';
-import { SubmitListing } from './screens/SubmitListing';
-import { Markets } from './screens/Markets';
-import { Strategy } from './screens/Strategy';
+import { Home } from '@/screens/Home';
+import { Indicators } from '@/screens/Indicators';
+import { IndicatorDetail } from '@/screens/IndicatorDetail';
+import { Screener } from '@/screens/Screener';
+import { News } from '@/screens/News';
+import { MacroCalendar } from '@/screens/MacroCalendar';
+import { Calculators } from '@/screens/Calculators';
+import { Brokers } from '@/screens/Brokers';
+import { Compare } from '@/screens/Compare';
+import { SubmitListing } from '@/screens/SubmitListing';
+import { Markets } from '@/screens/Markets';
+import { Strategy } from '@/screens/Strategy';
 
 // Authentication and user profile screens
-import { Login } from './screens/Login';
-import { Register } from './screens/Register';
-import { Profile } from './screens/Profile';
+import { Login } from '@/screens/Login';
+import { Register } from '@/screens/Register';
+import { Profile } from '@/screens/Profile';
 
 // SEO Trust and Google legal compliance screens
-import { AboutUs } from './screens/AboutUs';
-import { PrivacyPolicy } from './screens/PrivacyPolicy';
-import { TermsOfService } from './screens/TermsOfService';
-import { Contact } from './screens/Contact';
+import { AboutUs } from '@/screens/AboutUs';
+import { PrivacyPolicy } from '@/screens/PrivacyPolicy';
+import { TermsOfService } from '@/screens/TermsOfService';
+import { Contact } from '@/screens/Contact';
 
 const App = () => {
   return (
