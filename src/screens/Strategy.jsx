@@ -1,9 +1,9 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { apiService } from '@/./utils/api';
-import { Spinner } from '@/./components/ui/Spinner';
-import { setSeo } from '@/./utils/seo';
-import { Badge } from '@/./components/ui/Badge';
+import { apiService } from '@/utils/api';
+import { Spinner } from '@/components/ui/Spinner';
+import { setSeo } from '@/utils/seo';
+import { Badge } from '@/components/ui/Badge';
 import { 
   Cpu, 
   Play, 
