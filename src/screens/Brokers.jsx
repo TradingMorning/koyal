@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { apiService } from '../utils/api';
-import { Spinner } from '../components/ui/Spinner';
-import { Badge } from '../components/ui/Badge';
+import { apiService } from '@/utils/api';
+import { Spinner } from '@/components/ui/Spinner';
+import { Badge } from '@/components/ui/Badge';
 import { 
   Award, 
   TrendingUp, 
