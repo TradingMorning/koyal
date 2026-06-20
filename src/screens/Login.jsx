@@ -127,7 +127,7 @@ export const Login = () => {
           <p className="text-xs text-slate-500 font-mono">
             First-time set up?{' '}
             <Link to="/register" className="text-amber-500 hover:text-amber-400 hover:underline">
-              Register standard keys ->
+              Register standard keys 
             </Link>
           </p>
         </div>
