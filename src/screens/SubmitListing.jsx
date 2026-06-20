@@ -1,10 +1,10 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { apiService } from '../utils/api';
-import { setSeo } from '../utils/seo';
-import { useApp } from '../context/AppContext';
-import { Badge } from '../components/ui/Badge';
+import { apiService } from '@/./utils/api';
+import { setSeo } from '@/./utils/seo';
+import { useApp } from '@/./context/AppContext';
+import { Badge } from '@/./components/ui/Badge';
 import { 
   PlusCircle, 
   Send, 
