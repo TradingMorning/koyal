@@ -146,7 +146,7 @@ export const Register = () => {
           <p className="text-xs text-slate-500 font-mono">
             Already registered?{' '}
             <Link to="/login" className="text-amber-500 hover:text-amber-400 hover:underline">
-              Sign In ->
+              Sign In
             </Link>
           </p>
         </div>
