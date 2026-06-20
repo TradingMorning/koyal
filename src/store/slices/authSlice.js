@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { apiService } from '../../utils/api';
+import { apiService } from '@/utils/api';
 
 const storedUser = localStorage.getItem('fs_user_info');
 let initialUser = null;
