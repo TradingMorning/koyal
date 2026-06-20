@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { login, clearError } from '../store/slices/authSlice';
+import { login, clearError } from '@/./store/slices/authSlice';
 import { Shield, Mail, Lock, ArrowRight, AlertTriangle } from 'lucide-react';
 
 export const Login = () => {
