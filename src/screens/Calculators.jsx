@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { apiService } from '@/./utils/api';
-import { Badge } from '@/./components/ui/Badge';
-import { setSeo } from '@/./utils/seo';
+import { apiService } from '@/utils/api';
+import { Badge } from '@/components/ui/Badge';
+import { setSeo } from '@/utils/seo';
 import { 
   Calculator, 
   ChevronRight, 
