@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { logoutUser, loadProfile } from '../store/slices/authSlice';
+import { logoutUser, loadProfile } from '@/./store/slices/authSlice';
 import { User, Shield, Calendar, LogOut, CheckCircle2 } from 'lucide-react';
 
 export const Profile = () => {
