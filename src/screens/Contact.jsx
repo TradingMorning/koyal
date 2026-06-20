@@ -85,7 +85,7 @@ export const Contact = () => {
               onClick={() => setSubmitted(false)}
               className="text-xs font-semibold text-amber-500 hover:text-amber-400 underline"
             >
-              Send another message ->
+              Send another message
             </button>
           </div>
         ) : (
