@@ -1,10 +1,10 @@
 'use client'
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { setSeo } from '../utils/seo';
-import { useApp } from '../context/AppContext';
-import { StarRating } from '../components/ui/StarRating';
-import { Badge } from '../components/ui/Badge';
+import { setSeo } from '@/./utils/seo';
+import { useApp } from '@/./context/AppContext';
+import { StarRating } from '@/./components/ui/StarRating';
+import { Badge } from '@./components/ui/Badge';
 import { 
   ArrowLeftRight, 
   Trash2, 
