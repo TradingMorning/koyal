@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, Link } from 'react-router-dom';
-import { register, clearError } from '../store/slices/authSlice';
+import { register, clearError } from '@/store/slices/authSlice';
 import { ShieldAlert, Mail, Lock, User, ArrowRight, AlertTriangle } from 'lucide-react';
 
 export const Register = () => {
