@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { apiService } from '@/utils/api';
 
-const storedUser = localStorage.getItem('fs_user_info');
+const storedUser = typeof window !== 'undefined' ? localStorage.getItem('fs_user_info') : null;
 let initialUser = null;
 if (storedUser) {
   try {
