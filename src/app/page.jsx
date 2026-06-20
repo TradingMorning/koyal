@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 import { AppProvider } from './context/AppContext';
 import { Layout } from './components/layout/Layout';
-import { ProtectedRoute } from './components/ProtectedRoute';
+import { ProtectedRoute } from '@/components/ProtectedRoute';
 
 // Operational and Strategy screens
 import { Home } from './screens/Home';
